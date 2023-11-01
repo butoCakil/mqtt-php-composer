@@ -3,8 +3,8 @@ require("vendor/autoload.php"); // Memuat pustaka phpMQTT
 
 $host = "localhost";
 $port = 1883;
-$username = "ben";
-$password = "1234";
+$username = "user";
+$password = "pass";
 $topic = "dariserver";
 $message = "Hello from PHP wekwkwkwkwkwwkwk";
 
