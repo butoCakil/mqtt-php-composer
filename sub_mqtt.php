@@ -3,8 +3,8 @@ require "vendor/autoload.php"; // Memuat pustaka phpMQTT yang telah diinstal mel
 
 $host = "localhost"; // Ganti dengan alamat broker MQTT Anda
 $port = 1883; // Port broker MQTT (biasanya 1883)
-$username = "ben"; // Ganti dengan username Anda (jika diperlukan)
-$password = "1234"; // Ganti dengan password Anda (jika diperlukan)
+$username = "user"; // Ganti dengan username Anda (jika diperlukan)
+$password = "pass"; // Ganti dengan password Anda (jika diperlukan)
 $topic = "dariMCU"; // Ganti dengan topik yang Anda ingin subscribec
 
 $client_id = "php_subscriber_" . rand(); // ID pelanggan MQTT
